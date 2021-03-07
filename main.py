@@ -9,7 +9,7 @@ from tensorboardX import SummaryWriter
 import argparse, os, sys, subprocess
 import setproctitle, colorama
 import numpy as np
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 from glob import glob
 from os.path import *
 
